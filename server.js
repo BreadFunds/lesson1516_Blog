@@ -26,7 +26,17 @@ app.get("/", (req,res) => {
 app.get("/about", (req,res) => {
     res.render('about', {
         title:'About',
-        message : 'Welcome to my about page and read all my bios!   '
+        message : 'Welcome to my about page and read all my bios!'
+    })
+})
+
+app.get("/author", (req,res) => {
+    res.render('author', {
+        title:'Author Profile',
+        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFdTlgfg3q6rUoFI-S5zsud08OL-BHPErT6D8ipTMwVqCRq0dH9g6qRTc&s=10',
+        name : 'Bryan Terrance Zhong',
+        message: 'My name is Bryan and I like to eat bread'
+        
     })
 })
 const port = 3006
