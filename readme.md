@@ -16,7 +16,9 @@ git branch -m main
 git remote add origin <your_repository_link_on_github>
 ```
 
-4. try to add,commit push
+4. try to add commit push
 ```shell
 git add .
+git commit -m "your message"
+git push origin main
 ```
