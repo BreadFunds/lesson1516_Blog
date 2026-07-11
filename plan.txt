@@ -1,0 +1,5 @@
+-> Alur CRUD User express mongodb
+:Plan
+Aplikasi bisa menambah user,
+- Create -> kita panggil form, klik submit, data form terkirim, tampilkan di tabel user
+-> userController -> form ada nya di view(task: buat view baru), next kirim data melalui controller, simpan ke db   

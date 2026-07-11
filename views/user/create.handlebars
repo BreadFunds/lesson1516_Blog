@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-4">
+        <h1>Create new user form</h1>
+        <form action="/user/store" method="post">
+
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Input Username"
+                    aria-describedby="helpId" required />
+                <small id="helpId" class="text-body-secondary">Input Username</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="address" class="form-label">User Address</label>
+                <input type="text" name="address" id="address" class="form-control" placeholder="Input User Address"
+                    aria-describedby="helpId" />
+                <small id="helpId" class="text-body-secondary">Example : Jl.Merdeka 123</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" name="email" id="email" class="form-control" placeholder="Input Email"
+                    aria-describedby="helpId" required />
+                <small id="helpId" class="text-body-secondary">Input Email</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="dateOfBirth" class="form-label">Date of Birth</label>
+                <input type="text" name="dateOfBirth" id="dateOfBirth" class="form-control"
+                    placeholder="Input Birth Date" aria-describedby="helpId" />
+                <small id="helpId" class="text-body-secondary">Example : 01-01-1999</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-75">
+                Submit
+            </button>
+
+        </form>
+    </div>
+</div>
